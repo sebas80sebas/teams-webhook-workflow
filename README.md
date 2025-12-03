@@ -12,6 +12,9 @@ The workflow uses nested conditional logic to route messages:
 - **Condition 3**: If client = `client_c` → Send to Teams Chat C
 - **Else**: Return error message for unrecognized client
 
+**Workflow Diagram (Power Automate):**
+![Visual diagram of the Power Automate workflow showing nested conditions for routing Teams webhooks](img/Workflow.png)
+
 **Note:** This workflow requires all Teams chat members to be from the same organization. For chats with external users, use Teams Channels instead (see Limitations section).
 
 ## Prerequisites
