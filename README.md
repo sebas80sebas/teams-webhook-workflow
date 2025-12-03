@@ -13,7 +13,10 @@ The workflow uses nested conditional logic to route messages:
 - **Else**: Return error message for unrecognized client
 
 **Workflow Diagram (Power Automate):**
-![Visual diagram of the Power Automate workflow showing nested conditions for routing Teams webhooks](img/Workflow.png)
+
+<p align="center">
+  <img src="img/Workflow.png" alt="Visual diagram of the Power Automate workflow showing nested conditions for routing Teams webhooks">
+</p>
 
 **Note:** This workflow requires all Teams chat members to be from the same organization. For chats with external users, use Teams Channels instead (see Limitations section).
 
